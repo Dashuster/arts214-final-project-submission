@@ -1,0 +1,35 @@
+.img-responsive{
+    margin-bottom: 2px;
+}
+
+.img-responsive:hover { 
+    filter: grayscale(100%) blur(2px);
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.col-md-4{
+    padding:1px;
+}
+
+.text-space{
+    margin-bottom: 90%;
+}
+
+.text-hide{
+    display: none;
+}
+
+
+#message{
+    min-height:200px;
+}
+
+#contact-text{
+    text-align: center
+}
