@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Dasha Shuster">
+        <meta name="author" content="Dasha Shuster">
+        <title>Dasha Shuster</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <!-- navbar-->
+        <nav id="nabar-div" class="navbar navbar-inverse navbar-fixed-bottom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <!-- main content -->
+        <div class="header">
+          <div class="container">
+            <a href="index.html"><h1>DASHA SHUSTER</h1></a>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+                <div class="col-sm-12">
+                    <img src="img/birds/main.jpg" class="img-responsive" alt="birds">
+                    <img src="img/birds/img1.png" class="img-responsive" alt="birds">
+                    <img src="img/birds/img2.png" class="img-responsive" alt="birds">
+                </div>
+            </div>
+            <div class="col-sm-4" >
+                <div class="col-sm-12">
+                  <div id="description" class="text-space">
+                    <h3>BIRDS OF A FEATHER</h3>
+                    <p>
+                        <br>
+                        Placeholder text for now. As a part of my Internship, I was not only involved in logo and brand design, but also in the creation of an end product. 
+                        <br>
+                        <br>
+                        Cases used for an iPhone and premium Samsung phones were made out of a hand-finished real wood and illustrated with an engraved hand drawing.
+                        <br>
+                        <br>
+                        Design is focused on traditional Jewish symbols of palm shaped amulet which is recognized and used to provide defense against the evil eye. Different designs were enhanced by other important Jewish symbols, such as a fish and a pomegranate to make the end product not only beautiful but also meaningful.
+                      </p>
+                  </div>
+                  <div class="container">
+                    <a class="btn btn-lg btn-default" href="index.html" role="button">Back</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </div> <!-- /container -->
+        
+        <!-- add js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- move navbar -->
+        <script>
+          $(window).on("load resize", function() {
+            var width = $(window).width();
+            if (width < 768) {
+              $("#nabar-div").removeClass("navbar-fixed-bottom").addClass("navbar-fixed-top");
+              $("#description").removeClass("text-space").addClass("text-hide");
+            } else {
+              $("#nabar-div").removeClass("navbar-fixed-top").addClass("navbar-fixed-bottom");
+              $("#description").removeClass("text-hide").addClass("text-space");
+            }
+          });
+        </script>
+    </body>
+    
+</html>
+

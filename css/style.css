@@ -1,0 +1,66 @@
+.img-responsive{
+    margin-bottom: 2px;
+}
+
+.grayscale{
+    
+}
+
+.grayscale:hover .img-responsive {
+    filter: blur(3px);
+}
+.grayscale .img-responsive:hover {
+    filter: none;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.col-md-4{
+    padding:1px;
+}
+
+.text-space{
+    margin-bottom: 90%;
+}
+
+.text-hide{
+    display: none;
+}
+
+
+#message{
+    min-height:200px;
+}
+
+#contact-text{
+    margin-left: 30%
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 8px;
+    font-size: 2em;
+    font-weight: bold;
+}
