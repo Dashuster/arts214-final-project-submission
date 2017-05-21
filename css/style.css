@@ -2,8 +2,15 @@
     margin-bottom: 2px;
 }
 
-.img-responsive:hover { 
-    filter: grayscale(100%) blur(2px);
+.grayscale{
+    
+}
+
+.grayscale:hover .img-responsive {
+    filter: blur(3px);
+}
+.grayscale .img-responsive:hover {
+    filter: none;
 }
 
 .header {
@@ -31,5 +38,29 @@
 }
 
 #contact-text{
-    text-align: center
+    margin-left: 30%
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 8px;
+    font-size: 2em;
+    font-weight: bold;
 }
